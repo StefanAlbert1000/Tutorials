@@ -1,0 +1,13 @@
+Openssl runterladen:
+https://slproweb.com/products/Win32OpenSSL.html
+Win64 OpenSSL v3.1.0 Light
+
+Key und crt in bin ordner des OppenSSL Programms kopieren
+
+Powershell öffnen: Pfadleiste powershell eintippen --> Powershell öffnet sich schon mit richtigem ordner
+
+
+Passwort: RTG#digital!2023
+Powershellbefehl: ./openssl pkcs12 -export -out zertifikat.rtgroup.pfx -inkey STAR.rtgroup.de.key -in rtgroup_de.crt
+
+PFX Datei in Personal und in trusted Root Authorities kopieren
