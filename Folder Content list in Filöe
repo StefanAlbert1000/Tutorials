@@ -1,0 +1,6 @@
+@echo off
+for %%f in (*) do echo %%f >> Dateiliste.txt
+
+Passe den Befehl an, um nur bestimmte Dateien oder Dateitypen zu erfassen.
+
+Batch-Datei ausführen: Lege die .bat-Datei in den Ordner, wähle die gewünschten Dateien aus und führe die Batch-Datei aus. Die Liste wird in Dateiliste.txt gespeichert.
